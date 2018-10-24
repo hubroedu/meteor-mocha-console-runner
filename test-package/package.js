@@ -11,9 +11,6 @@ Package.onUse(function (api) {
   api.use([
     'meteor',
     'mongo',
-    'coffeescript',
-    'practicalmeteor:loglevel',
-    'practicalmeteor:chai',
     "ecmascript"
   ]);
 
@@ -21,11 +18,8 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use([
-    'coffeescript',
-    'practicalmeteor:loglevel',
-    'practicalmeteor:chai',
-    'practicalmeteor:mocha@2.4.5_3',
-    'practicalmeteor:mocha-console-runner@=0.2.2',
+    'hubroedu:mocha@2.4.5_3',
+    'hubroedu:mocha-console-runner@=0.2.2',
     'ecmascript',
     'test-package'
   ]);

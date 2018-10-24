@@ -1,13 +1,13 @@
-import {MochaRunner, describe, it, before, after, beforeEach, afterEach, xdescribe, xit, specify, xspecify, context, xcontext} from "meteor/practicalmeteor:mocha"
-import {expect} from "meteor/practicalmeteor:chai"
+import {MochaRunner, describe, it, before, after, beforeEach, afterEach, xdescribe, xit, specify, xspecify, context, xcontext} from "meteor/hubroedu:mocha"
+import {expect} from "chai"
 import TestCollection from "./import/collections/TestCollection"
 
 if (Meteor.isClient) {
-  var {ConsoleReporter}  = require("meteor/practicalmeteor:mocha-console-runner");
+  var {ConsoleReporter}  = require("meteor/hubroedu:mocha-console-runner");
   console.log("------------------------------------------------");
   console.log("----------------PACKAGE VERSIONS----------------");
-  console.log("practicalmeteor:mocha:", MochaRunner.VERSION);
-  console.log("practicalmeteor:mocha-console-runner:", ConsoleReporter.VERSION);
+  console.log("hubroedu:mocha:", MochaRunner.VERSION);
+  console.log("hubroedu:mocha-console-runner:", ConsoleReporter.VERSION);
   console.log("------------------------------------------------");
   console.log("------------------------------------------------");
 }

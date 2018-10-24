@@ -1,4 +1,4 @@
-import {expect} from "meteor/practicalmeteor:chai"
+import {expect} from "chai"
 
 describe('Globals', function() {
 

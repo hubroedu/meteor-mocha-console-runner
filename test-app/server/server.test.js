@@ -1,5 +1,5 @@
-import {describe, it } from "meteor/practicalmeteor:mocha"
-import {expect} from "meteor/practicalmeteor:chai"
+import {describe, it } from "meteor/hubroedu:mocha"
+import {expect} from "chai"
 
 describe("Server Test", function(){
 
