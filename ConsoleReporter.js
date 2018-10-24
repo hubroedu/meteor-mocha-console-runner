@@ -15,7 +15,7 @@ const log = new ObjectLogger('ConsoleReporter', 'info');
 class ConsoleReporter extends  ClientServerBaseReporter {
   static initClass() {
   
-    this.VERSION = "0.2.2";
+    this.VERSION = "3.0.0";
   }
 
   constructor(clientRunner, serverRunner, options){

@@ -18,8 +18,8 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use([
-    'hubroedu:mocha@2.4.5_3',
-    'hubroedu:mocha-console-runner@=0.2.2',
+    'hubroedu:mocha@3.0.0',
+    'hubroedu:mocha-console-runner@3.0.0',
     'ecmascript',
     'test-package'
   ]);
